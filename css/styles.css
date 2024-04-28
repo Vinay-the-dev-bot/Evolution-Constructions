@@ -23,12 +23,12 @@ h1 {
     display: none;
 } */
 /* -----Nav Bar---- */
-nav {
+/* nav {
   display: flex;
   padding: 2% 8% 2% 6%;
   justify-content: space-between;
   align-items: center;
-}
+} */
 #nav-logo {
   width: 100px;
   border-radius: 3px;
@@ -92,6 +92,15 @@ nav .fa-solid {
   #navLinks {
     display: none;
   }
+}
+#navBar {
+  display: flex;
+  padding: 1rem 4rem;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 90%;
 }
 
 /* ----- Common section----- */
@@ -345,7 +354,7 @@ nav .fa-solid {
 .address-aside {
   display: inline-block;
   text-align: left;
-  width: 250px;
+  width: 310px;
 }
 .left {
   text-align: left;
